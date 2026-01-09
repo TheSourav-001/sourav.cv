@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sourav Dipto Apu | SENTIENT_CORE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <div id="boot-sequence">
+        <div class="boot-center">
+            <div class="hex-loader">
+                <div class="hex h1"></div>
+                <div class="hex h2"></div>
+                <div class="hex h3"></div>
+            </div>
+            <div class="boot-text" id="boot-text">INITIALIZING KERNEL...</div>
+            <div class="boot-bar"><div class="boot-progress"></div></div>
+            <div class="boot-warning">PLEASE WAIT... DECRYPTING USER PROFILE</div>
+        </div>
+    </div>
+
+    <canvas id="quantum-field"></canvas>
+    <div class="vignette"></div>
+    <div class="scanlines"></div>
+
+    <div class="interface-layer" id="main-interface">
+        
+        <header class="top-nav">
+            <div class="sys-id">
+                <span class="pulse-dot"></span>
+                <span>ID: SOURAV_DIPTO_APU // <span style="color:var(--energy)">ADMIN</span></span>
+            </div>
+            <div class="clock" id="clock">00:00:00 UTC</div>
+        </header>
+
+        <div class="main-grid">
+            
+            <aside class="hud-panel glass-prism">
+                <div class="profile-section">
+                    <div class="hologram-avatar">
+                        <div class="avatar-img">SD</div>
+                        <div class="holo-ring r1"></div>
+                        <div class="holo-ring r2"></div>
+                    </div>
+                    <h1 class="glitch-title" data-text="SOURAV DIPTO APU">SOURAV DIPTO APU</h1>
+                    <p class="role-text">QA ENGINEER // SYSTEM ARCHITECT</p>
+                </div>
+
+                <div class="nav-menu">
+                    <a href="#profile" class="menu-item active">
+                        <i data-lucide="user"></i> <span>PROFILE_DATA</span>
+                    </a>
+                    <a href="#experience" class="menu-item">
+                        <i data-lucide="briefcase"></i> <span>EXPERIENCE</span>
+                    </a>
+                    <a href="#projects" class="menu-item">
+                        <i data-lucide="folder-code"></i> <span>PROJECTS</span>
+                    </a>
+                    <a href="#certifications" class="menu-item">
+                        <i data-lucide="award"></i> <span>CERTIFICATES</span>
+                    </a>
+                </div>
+
+                <div class="connect-grid">
+                    <a href="mailto:apu2305341268@diu.edu.bd" class="icon-box" title="Email"><i data-lucide="mail"></i></a>
+                    <a href="https://github.com/TheSourav-001?tab=repositories" target="_blank" class="icon-box" title="GitHub"><i data-lucide="github"></i></a>
+                    <a href="https://www.linkedin.com/in/sourav-dipta-shill-apu-b71a75389/" target="_blank" class="icon-box" title="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    <a href="CV(3).pdf" download class="icon-box highlight" title="Download CV"><i data-lucide="download"></i></a>
+                </div>
+
+                <div class="info-module">
+                    <div class="data-row"><span>DOB:</span> 27 NOV 2002</div>
+                    <div class="data-row"><span>LOC:</span> SAVAR, DHAKA</div>
+                    <div class="data-row"><span>WEB:</span> <a href="https://sites.google.com/view/souravdiptoapu" target="_blank" class="link-inline">PORTFOLIO SITE</a></div>
+                </div>
+            </aside>
+
+            <main class="content-stream">
+                
+                <section id="profile" class="data-module glass-card hero-mod">
+                    <div class="module-header">
+                        <i data-lucide="terminal"></i> <h2>MISSION_STATEMENT</h2>
+                    </div>
+                    <p class="typewriter-text">
+                        > IDENTITY: Motivated Software Engineering Undergraduate.<br>
+                        > TARGET: QA Intern Position.<br>
+                        > CORE PROTOCOLS: Manual Testing, Test Case Design, API Validation, Defect Reporting.<br>
+                        > STATUS: Ready for industry deployment.
+                    </p>
+                </section>
+
+                <section id="experience" class="data-module glass-card">
+                    <div class="module-header">
+                        <i data-lucide="briefcase"></i> <h2>EXPERIENCE_LOG</h2>
+                    </div>
+                    <div class="exp-node">
+                        <div class="node-left">
+                            <span class="date">MAY 2024 - NOV 2024</span>
+                            <div class="line-connect"></div>
+                        </div>
+                        <div class="node-right">
+                            <h3>JUNIOR QA ENGINEER (TRAINEE)</h3>
+                            <h4 class="neon-text">ORBITSQ, DHAKA</h4>
+                            <ul class="sci-fi-list">
+                                <li>Assisted in manual testing of web applications.</li>
+                                <li>Designed and executed comprehensive test cases.</li>
+                                <li>Identified and reported bugs with clear reproduction steps.</li>
+                                <li>Collaborated with developers to verify bug fixes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="skills" class="data-module glass-card">
+                    <div class="module-header">
+                        <i data-lucide="cpu"></i> <h2>TECHNICAL_COMPETENCY</h2>
+                    </div>
+                    <div class="skill-grouping">
+                        <div class="sg-col">
+                            <h5 class="sg-title">TESTING</h5>
+                            <div class="skill-cloud">
+                                <span class="skill-chip">Manual Testing</span>
+                                <span class="skill-chip">SDLC / STLC</span>
+                                <span class="skill-chip">Agile / Waterfall</span>
+                                <span class="skill-chip">Test Case Dev</span>
+                                <span class="skill-chip">Bug Reporting</span>
+                                <span class="skill-chip">JMeter (Basic)</span>
+                            </div>
+                        </div>
+                        <div class="sg-col">
+                            <h5 class="sg-title">TECH & TOOLS</h5>
+                            <div class="skill-cloud">
+                                <span class="skill-chip">Java (Basic)</span>
+                                <span class="skill-chip">C Language</span>
+                                <span class="skill-chip">HTML</span>
+                                <span class="skill-chip">SQL</span>
+                                <span class="skill-chip">Git & GitHub</span>
+                                <span class="skill-chip">Jira / Trello</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects" class="data-module glass-card">
+                    <div class="module-header">
+                        <i data-lucide="layers"></i> <h2>PROJECT_DATABASE</h2>
+                        <a href="https://github.com/TheSourav-001?tab=repositories" target="_blank" class="link-sm">VIEW_REPO <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                    <div class="project-grid">
+                        <div class="p-card">
+                            <div class="p-head"><h5>DIABETO</h5><span class="tag">JAVAFX</span></div>
+                            <p>Diabetes management system with MySQL database.</p>
+                        </div>
+                        <div class="p-card">
+                            <div class="p-head"><h5>LIBRALINK</h5><span class="tag">FIGMA</span></div>
+                            <p>Library management system UI/UX design.</p>
+                        </div>
+                        <div class="p-card">
+                            <div class="p-head"><h5>FARMVILLE 1.0</h5><span class="tag">C-LANG</span></div>
+                            <p>Console-based farm management system.</p>
+                        </div>
+                        <div class="p-card">
+                            <div class="p-head"><h5>WEATHER TRACKER</h5><span class="tag">API</span></div>
+                            <p>Real-time weather information application.</p>
+                        </div>
+                        <div class="p-card">
+                            <div class="p-head"><h5>PERFORMANCE TEST</h5><span class="tag">JMETER</span></div>
+                            <p>Load & stress testing of web applications.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="data-module glass-card">
+                    <div class="module-header">
+                        <i data-lucide="graduation-cap"></i> <h2>ACADEMIC_RECORDS</h2>
+                    </div>
+                    <div class="cert-list">
+                        <div class="cert-row highlight">
+                            <span class="c-date">2023 - PRES</span>
+                            <span class="c-name">B.Sc. Software Engineering</span>
+                            <span class="c-provider">Daffodil Int. University [CGPA 3.31]</span>
+                        </div>
+                        <div class="cert-row">
+                            <span class="c-date">2021</span>
+                            <span class="c-name">HSC (Science)</span>
+                            <span class="c-provider">Govt. Bangabandhu College [GPA 5.00]</span>
+                        </div>
+                        <div class="cert-row">
+                            <span class="c-date">2019</span>
+                            <span class="c-name">SSC (Science)</span>
+                            <span class="c-provider">Piljanga Secondary School [GPA 4.80]</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="certifications" class="data-module glass-card">
+                    <div class="module-header">
+                        <i data-lucide="award"></i> <h2>CERTIFICATION_INDEX</h2>
+                        <a href="https://www.linkedin.com/in/sourav-dipta-shill-apu-b71a75389/details/certifications/" target="_blank" class="link-sm">
+                            VERIFY <i data-lucide="check-circle"></i>
+                        </a>
+                    </div>
+                    <div class="cert-list dense">
+                        <div class="cert-row">
+                            <span class="c-date">MAY 2024</span>
+                            <span class="c-name">SQA Career Launchpad</span>
+                            <span class="c-provider">Ostad</span>
+                        </div>
+                        <div class="cert-row">
+                            <span class="c-date">JUN 2024</span>
+                            <span class="c-name">Software Testing Fundamentals</span>
+                            <span class="c-provider">Great Learning</span>
+                        </div>
+                        <div class="cert-row">
+                            <span class="c-date">NOV 2024</span>
+                            <span class="c-name">SQL for Beginners</span>
+                            <span class="c-provider">Coursera</span>
+                        </div>
+                        <div class="cert-row">
+                            <span class="c-date">OCT 2023</span>
+                            <span class="c-name">Intro to Software Testing</span>
+                            <span class="c-provider">Simplilearn</span>
+                        </div>
+                        <div class="cert-row">
+                            <span class="c-date">DEC 2023</span>
+                            <span class="c-name">Agile Project Management</span>
+                            <span class="c-provider">Great Learning</span>
+                        </div>
+                        <div class="cert-row">
+                            <span class="c-date">FEB 2024</span>
+                            <span class="c-name">Software Testing & QA Workshop</span>
+                            <span class="c-provider">Practical Exposure</span>
+                        </div>
+                        <div class="cert-row">
+                            <span class="c-date">SEP 2025</span>
+                            <span class="c-name">Git & GitHub Basics</span>
+                            <span class="c-provider">Version Control</span>
+                        </div>
+                        <div class="cert-row">
+                            <span class="c-date">MAY 2025</span>
+                            <span class="c-name">Automated Testing & Selenium</span>
+                            <span class="c-provider">Seminar</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="data-module glass-card footer-mod">
+                    <div class="split-col">
+                        <label>REFERENCE_NODE</label>
+                        <div class="ref-block">
+                            <strong>Fayazunnesa Chowdhury</strong>
+                            <span>Lecturer, DIU</span>
+                            <a href="mailto:fayazunnesa.cse0405.c@diu.edu.bd">fayazunnesa.cse0405.c@diu.edu.bd</a>
+                            <span>+880 17372 16620</span>
+                        </div>
+                    </div>
+                    <div class="split-col">
+                        <label>PERSONAL_INTERESTS</label>
+                        <div class="hobby-tags">
+                            <span>Photography</span>
+                            <span>Tech Blogs</span>
+                            <span>Volunteering</span>
+                            <span>Cricket</span>
+                            <span>Chess</span>
+                        </div>
+                        <label style="margin-top:15px">LANGUAGES</label>
+                        <div class="hobby-tags">
+                            <span>Bangla</span>
+                            <span>English</span>
+                            <span>Hindi</span>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>

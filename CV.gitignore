@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Node (if opened accidentally)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / cache
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# PDF (optional – remove this line if you WANT to commit the CV PDF)
+*.pdf
